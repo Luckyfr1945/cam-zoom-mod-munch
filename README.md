@@ -28,34 +28,12 @@ LSPosed xposed module for Xiaomi / HyperOS stock camera (`com.android.camera`). 
 5. Force close the Camera app or reboot your device.
 6. Open Camera Zoom Mod to adjust your zoom transition and toggle features.
 
-## Building from Source
-
-Prerequisites:
-- Android SDK (API 36 / Android 16 platform)
-- JDK 17 or higher
-
-Clone the repository and build using Gradle:
-
-```bash
-git clone https://github.com/luckyfr1945/cam-mod.git
-cd cam-mod
-./gradlew assembleRelease
-```
-
-The compiled APK will be generated at:
-```text
-app/build/outputs/apk/release/app-release.apk
-```
 
 ## Tested Environments
 
-- Device: Redmi Note 11 Pro 5G / POCO X4 Pro 5G (veux / peau)
-- OS: Android 16 (SDK 36) / HyperOS
-- Target Package: `com.android.camera`
-- Framework: LSPosed v1.9.3+
+- Device: Poco F4
+- OS: Android 16 (SDK 36)
 
 ## License & Credits
 
 - Author: luckyfr1945
-- Framework: Built with YukiHookAPI
-- License: Open source under Apache 2.0
